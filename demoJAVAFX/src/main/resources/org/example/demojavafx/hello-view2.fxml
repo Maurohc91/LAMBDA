@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demojavafx.Pantalla2Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <TextField fx:id="tipoCalzado" promptText="Escribe el tipo de calzado" />
+   <TextField fx:id="tipoTalla" promptText="Escribe la talla...." />
+   <TextField fx:id="tipoPrecio" promptText="Escribe el precio..." />
+
+   <Button mnemonicParsing="false" prefHeight="53.0" prefWidth="77.0" onAction="#Keep_it">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Button>
+
+
+
+    <Button fx:id="volver_hello" onAction="#volverAPantallaHello" text="Volver a la pantalla anterior!" />
+
+
+
+</VBox>
